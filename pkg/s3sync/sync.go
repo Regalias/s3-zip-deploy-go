@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/regalias/s3-sync-zip-go/pkg/bundle"
+	"github.com/regalias/s3-zip-deploy-go/pkg/bundle"
 )
 
 func (h *SyncHandler) SyncBucket(ctx context.Context) error {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/regalias/s3-sync-zip-go/pkg/bundle"
+	"github.com/regalias/s3-zip-deploy-go/pkg/bundle"
 )
 
 func (h *SyncHandler) CalculateFileListDiff(ctx context.Context, archiveManifest bundle.ArchiveManifest) ([]string, error) {

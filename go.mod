@@ -1,4 +1,4 @@
-module github.com/regalias/s3-sync-zip-go
+module github.com/regalias/s3-zip-deploy-go
 
 go 1.17
 
